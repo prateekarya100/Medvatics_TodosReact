@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbdd;
+} */
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family: 'Raleway',sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  /* margin-bottom: 30px; */
+  margin-top: 0%;
+  width: 100%;
+  /* height: 0%; */
+}
+.card__title{
+  color: rgb(72, 71, 71);
+}
+/* .cards{
+  height: 400px;
+  width: 300px;
+} */
+.cards{
+  background-color: rgb(187, 191, 195);
+  padding: 10px 10px;
+  border-radius: 20px 20px;
+  color: black;
+  font-family: Geneva;
+  box-shadow: 2px 2px 2px 0px gainsboro;
+  margin: 40px 43px;
+  /* display: inline-flex; */
+  transition: 1s ease;
+}
+.cards:hover{
+  -webkit-transform:scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.watchNowBtn{
+  background-color: rgb(163, 19, 19);
+  color: rgb(178, 193, 193);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size:x-small;
+  border: 0px;
+  cursor: pointer;
+}
+.card__img{
+  margin: 15px;
+  height: 250px;
+  width: 220px;
+}
+
+.container{
+  margin:10px 0px 30px 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
